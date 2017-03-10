@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>ajax</title>
+</head>
+<body>
+	<input type="text" value="text">
+	<script>
+	var xhr=null;
+		if(window.XMLHttpRequest){
+			 xhr= new XMLHttpRequest();
+		}
+		else{
+			xhr= new ActiveXObject("Microsoft")
+		}
+		var arr=[12,13,15]
+		arr.shift()
+		arr.push(12)
+		arr.unshift(2)
+		console.log(arr)
+	</script>
+</body>
+</html>
